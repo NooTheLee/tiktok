@@ -16,6 +16,7 @@ import Feedback from '~/pages/Feedback';
 //Public routes
 const publicRoutes = [
     { path: config.routes.home, component: Home },
+    { path: config.routes.main, component: Home },
     { path: config.routes.following, component: Following },
     { path: config.routes.live, component: Live },
     { path: config.routes.profile, component: Profile },
